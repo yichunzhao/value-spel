@@ -8,7 +8,7 @@ Define
 
 mapValues={key:'value', key1:'value1',key3:'value3'} 
 
-in a property file.
+in a property file, ref. to key-value pattern: {key-name:'value'}
 
 Using @Vlaue injection and Spel expression
 
