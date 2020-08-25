@@ -1,7 +1,8 @@
 # value-spel
-Inject Map key-values from a file
+
 
 ## Inject Map from file
+Inject Map key-values from a file
 
 Define 
 
@@ -16,12 +17,16 @@ Using @Vlaue injection and Spel expression
 Private Map<String,String> mapValues; 
 ````
 
-## Select profile from JVM system parameter
+## Set profile from JVM system parameter
 
 VM options: -Dspring.profiles.active=shape
 
 in case selecting more than one profiles, using comman to separate them
 
 -Dspring.profiles.active=shape,cut
+
+## Programmatically set active profile
+
+injecting an Enviornment instance. 
 
 
