@@ -21,12 +21,12 @@ Private Map<String,String> mapValues;
 
 VM options: -Dspring.profiles.active=shape
 
-in case selecting more than one profiles, using comman to separate them
+in case selecting more than one profiles, using comma to separate them
 
 -Dspring.profiles.active=shape,cut
 
 ## Programmatically set active profile
 
-injecting an Enviornment instance. 
+It may inject an Enviornment instance in the Spring, and then setActiveProfile 
 
 
